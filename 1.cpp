@@ -8,6 +8,7 @@
 using namespace std;
 vector<vector<int>> Array(101);
 vector<vector<int>> room(101, vector<int>(5001, 5001));
+//1389backjun 무지성 첫번째 제출했는데 맞은 케이스..
 bool room1[101] = { 0, };
 int N, M;
 void init() { for (int i = 1; i < 101; i++) room1[i] = 0; }
