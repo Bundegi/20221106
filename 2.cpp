@@ -8,6 +8,7 @@
 #define INF 10000
 using namespace std;
 int V;
+//1389backjun 플루이드 와샬 알고리즘을 이용한 문제풀이 조금더 해봐야 할듯.
 void floy(int graph[101][101]) {
 	int i, j, k;
 	int dist[101][101];
